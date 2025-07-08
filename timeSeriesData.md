@@ -68,13 +68,16 @@ Client applications should choose wisely how and if they culminate data. For ins
 
 ```json
 {
-  "kind: 12345
-  "content": <Encrypted JSON payload (NIP-44)>
+  "kind": 12345
+  "content": "<Encrypted JSON payload (NIP-44)>"
   "tags":
-    ["dataset_id", "<data set unique identifier> | <sha256 hash from datasetName>"] /* (e.g. "steps walked in sound hsa app on myiPhone" or a hash) */
-    /* Optional: */
-    ["start", "<unix timestamp in milliseconds>"] /* for querying, but would give away some privacy, therefore it is optional */
-    ["end", "<unix timestamp in milliseconds>"] /* for querying, but would give away some privacy, therefore it is optional */
+    ["dataset_id", "<data set unique identifier> | <sha256 hash from datasetName>"]
+    /*
+     * for querying, but would give away some privacy, therefore these are optional:
+    */
+    ["start", "<unix timestamp in milliseconds>"]
+    ["end", "<unix timestamp in milliseconds>"]
+}
 ```
 
 ### Encryption
