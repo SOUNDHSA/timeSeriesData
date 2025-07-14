@@ -1,6 +1,6 @@
-# Time Series Data NIP
+# NIP 456 - Time Series Data
 
-This NIP defines how time series data for statistical purposes should be stored using event kind `xxxxx`.
+This NIP defines how time series data for statistical purposes should be stored using event kind 12345.
 
 **Note:** Nostr events cannot replace centralized database systems such as SQL in terms of performance and availability. Therefore, storing statistical data on Nostr relays is meant to offer users ownership of their data and encourage interoperability throughout different apps that build on Nostr.
 
