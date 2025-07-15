@@ -71,7 +71,7 @@ Client applications should choose wisely how and if they culminate data. For ins
   "kind": 12345
   "content": "<Encrypted JSON payload (NIP-44)>"
   "tags":
-    ["dataset_id", "<data set unique identifier> | <sha256 hash from datasetName>"]
+    ["d", "<data set unique identifier> | <sha256 hash from datasetName>"]
     /*
      * for querying, but would give away some privacy, therefore these are optional:
     */
